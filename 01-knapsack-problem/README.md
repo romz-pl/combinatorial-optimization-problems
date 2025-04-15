@@ -105,3 +105,11 @@ task is clearly equivalent to solving a knapsack problem with an item $j$ for th
 question with $w_j$ representing the reachable points and $p_j$ the actually scored points.
 The capacity $c$ gives the threshold for the limit of points of the selected questions.
 
+
+## References
+- Knapsack Problems, H. Kellerer, U. Pferschy, D. Pisinger, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
+
+
+
+
+
