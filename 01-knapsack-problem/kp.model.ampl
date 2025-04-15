@@ -10,11 +10,8 @@ param C > 0;
 
 # weigths
 param W{N} > 0;
-check: 
-    sum {j in N} W[j] > C;
-    
-check{j in N}: 
-    W[j] <= C;
+check: sum {j in N} W[j] > C;
+check{j in N}: W[j] <= C;
 
 # profits
 param P{N} > 0;
