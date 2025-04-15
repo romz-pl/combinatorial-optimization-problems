@@ -16,6 +16,9 @@ A knapsack problem can be formulated as a solution of the following linear integ
 
 ![Mathematical formulation](./problem.png)
 
+The objective function represents the total value of the selected items, whereas the first constraint
+represents the capacity constraint and the second constraint imposes the decision variables to be binary variables.
+
 
 ## Assumptions on the Input Data
 
