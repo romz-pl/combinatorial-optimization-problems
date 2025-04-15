@@ -25,6 +25,8 @@ A knapsack problem can be formulated as a solution of the following linear integ
 \end{cases}
 ```
 
+![Mathematical formulation](./problem.png)
+
 
 ## Knapsack problem as decision problem
 
