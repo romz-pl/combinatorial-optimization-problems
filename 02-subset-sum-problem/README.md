@@ -4,6 +4,11 @@
 ## Problem formulation
 
 The Subset Sum Problem is the knapsack problem with $p_j = w_j$. 
+
+Given a set $N = \lbrace 1,\ldots, n \rbrace$ of $n$ items with positive integer weights $w_1,\ldots, w_n$ and
+a capacity $c$, the subset sum problem (SSP) is to find a subset of $N$ such that the
+corresponding total weight is maximized without exceeding the capacity $c$.
+
 The resulting optimization problem is known as the **subset sum problem** because
 we are looking for a subset of the values $w_j$ with the sum being as close as possible
 to, but not exceeding the given target value $c$.
@@ -11,11 +16,17 @@ to, but not exceeding the given target value $c$.
 
 ## Mathematical formulation
 
-A knapsack problem can be formulated as a solution of the following linear integer program:
+A subset sum problem can be formulated as a solution of the following linear integer program:
 
 ![Mathematical formulation](./problem.png)
 
 
+## Assumptions on the Input Data
+
+We will assume that assumptions defined for knapsack problem also hold for subset sum problem. 
+This means that every item $j$ fits into the knapsack, i.e. $w_j \leq c$ for all $j = 1, \ldots, n$
+and that the overall weight sum of the items exceeds $c$, i.e. $sum_{j=1}^n w_j > c$. 
+Without loss of generality we assume that all weights are positive, i.e. $e_j > 0$ for all $j = 1, \ldots, n$.
 
 
 ## References
