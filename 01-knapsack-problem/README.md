@@ -1,4 +1,4 @@
-# Knapsack problem
+# Knapsack Problem
 
 
 ## Problem formulation
@@ -13,17 +13,6 @@ exceed $c$.
 ## Mathematical formulation
 
 A knapsack problem can be formulated as a solution of the following linear integer program:
-
-
-```math
-\begin{cases}
-\text{maximize } & \sum_{j=1}^n p_j x_j \\
-
-\text{subject to } & \sum_{j=1}^n w_j x_j \leq c \\
-
-& x_j \in \lbrace 0, 1 \rbrace, \quad j = 1, \ldots,n.
-\end{cases}
-```
 
 ![Mathematical formulation](./problem.png)
 
