@@ -27,7 +27,7 @@ We will assume that assumptions defined for knapsack problem also hold for subse
 This means that:
 + every item $j$ fits into the knapsack, i.e. $w_j \leq c$ for all $j = 1, \ldots, n$.
 + the overall weight sum of the items exceeds $c$, i.e. $\sum_{j=1}^n w_j > c$. 
-+ without loss of generality we assume that all weights are positive, i.e. $e_j > 0$ for all $j = 1, \ldots, n$.
++ without loss of generality we assume that all weights are positive, i.e. $w_j > 0$ for all $j = 1, \ldots, n$.
 
 
 ## References
