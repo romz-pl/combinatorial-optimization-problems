@@ -13,8 +13,8 @@ The resulting optimization problem is known as the **subset sum problem** becaus
 we are looking for a subset of the values $w_j$ with the sum being as close as possible
 to, but not exceeding the given target value $c$.
 
-The Subset Sum Problem is the knapsack problem with $p_j = w_j$. 
-Although Subset Sum Problem is a special case of knapsack problem it is still NP-hard.
+The subset sum problem is the knapsack problem with $p_j = w_j$. 
+Although subset sum problem is a special case of knapsack problem it is still NP-hard.
 
 
 ## Mathematical formulation
