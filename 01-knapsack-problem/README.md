@@ -34,7 +34,7 @@ can assume $w_j \leq c$ for $j = 1, \ldots, n$ because otherwise we would have t
 to $0$ any binary variable corresponding to an item violating this condition.
 
 + If on the other hand all items together fit into the knapsack,
-the problem is trivially solved by packing them all. Therefore, we assume $\sum_{j=1}^n > c$.
+the problem is trivially solved by packing them all. Therefore, we assume $\sum_{j=1}^n w_j  > c$.
 Otherwise, we would set $x_j = 1$ for $j = 1,\ldots, n$.
 
 + Without loss of generality we may assume that all profits and weights are positive:
