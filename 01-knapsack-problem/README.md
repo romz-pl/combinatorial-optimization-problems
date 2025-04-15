@@ -17,6 +17,31 @@ A knapsack problem can be formulated as a solution of the following linear integ
 ![Mathematical formulation](./problem.png)
 
 
+## Assumptions on the Input Data
+
+To avoid trivial situations and tedious considerations of pointless sub-cases we will
+impose a number of assumptions on the input data of the knapsack problem.
+However, as described below this will not result in a loss of generality. The analogous assumptions apply also to most of the
+variants of Knapsack Problem.
+
++ First of all, only problems with at least two items will be considered, i.e. we assume
+$n \geq 2$. Obviously, the case $n = 1$ represents a single binary decision which can be
+made by simply evaluating the two alternatives.
+
++ Two other straightforward assumptions concern the item weights. Naturally, we can
+never pack an item into the knapsack if its weight exceeds the capacity. Hence, we
+can assume $w_j \leq c$ for $j = 1, \ldots, n$ because otherwise we would have to set 
+to $0$ any binary variable corresponding to an item violating this condition.
+
++ If on the other hand all items together fit into the knapsack,
+the problem is trivially solved by packing them all. Therefore, we assume $\sum_{j=1}^n > c$.
+Otherwise, we would set $x_j = 1$ for $j = 1,\ldots, n$.
+
++ Without loss of generality we may assume that all profits and weights are positive:
+$p_j >0$ and $w_j > 0$ for $j=1, \ldots, n$. If this is not the case we may transform the instance to satisfy
+these conditions.
+
+
 ## Knapsack problem as decision problem
 
 In the following we will consider decision problems where the feasibility of a particular 
