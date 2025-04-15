@@ -4,9 +4,12 @@
 Formulation of combinatorial optimization problems in AMPL language
 
 
-## Knapsack problem
-
+## Knapsack Problem
 ![Knapsack problem](./01-knapsack-problem/problem.png)
+
+
+## Subset Sum Problem
+![Knapsack problem](./02-subset-sum-problem/problem.png)
 
 
 ## Additional information
