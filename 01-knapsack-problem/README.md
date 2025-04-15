@@ -35,7 +35,7 @@ to $0$ any binary variable corresponding to an item violating this condition.
 
 + If on the other hand all items together fit into the knapsack,
 the problem is trivially solved by packing them all. Therefore, we assume $\sum_{j=1}^n w_j  > c$.
-Otherwise, we would set $x_j = 1$ for $j = 1,\ldots, n$.
+Otherwise, we would set $x_j = 1$ for all $j = 1,\ldots, n$.
 
 + Without loss of generality we may assume that all profits and weights are positive:
 $p_j >0$ and $w_j > 0$ for $j=1, \ldots, n$. If this is not the case we may transform the instance to satisfy
