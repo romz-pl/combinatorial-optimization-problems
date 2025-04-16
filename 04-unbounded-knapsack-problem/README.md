@@ -25,6 +25,13 @@ The corresponding integer programming formulation of the bounded knapsack proble
 ![Mathematical formulation](./problem.png)
 
 
+A transformation of unbounded knapsack problem into an equivalent instance of bounded knapsack problem is easily attained
+by introducing the trivial bound
+```math
+b_j := \left \lfloor \frac{c}{w_j} \right \rfloor
+```
+for every item type $j = 1, \ldots , n$.
+
 
 ## Application
 
