@@ -26,7 +26,7 @@ corresponding integer programming formulation of the bounded knapsack problem is
 
 We assume that
 ```math
-b_j \leq \lfloor \frac{c}{w_j} \rfloor, \quad j = \lbrace 1, \ldots, n \rbrace$,
+b_j \leq \left \lfloor \frac{c}{w_j} \right \rfloor, \quad j = \lbrace 1, \ldots, n \rbrace,
 ```
 since no more than $\lfloor c/ w_j \rfloor$ copies of item type $j$ will fit into the knapsack. If this is
 not true for some item type $j$, one can immediately reduce the number of copies for
