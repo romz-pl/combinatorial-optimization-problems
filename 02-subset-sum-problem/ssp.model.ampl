@@ -1,5 +1,5 @@
 #
-# The AMPL implementation of Subset Sum Problem.
+# The AMPL implementation of Subset Sum Problem (SSP).
 #
 # author: Zbigniew Romanowski
 #

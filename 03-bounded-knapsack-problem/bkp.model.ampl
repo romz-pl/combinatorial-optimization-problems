@@ -1,5 +1,5 @@
 #
-# The AMPL implementation of Bounded Knapsack Problem.
+# The AMPL implementation of Bounded Knapsack Problem (BKP).
 #
 # author: Zbigniew Romanowski
 #
