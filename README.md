@@ -5,27 +5,32 @@ Formulation of combinatorial optimization problems in AMPL language
 
 
 ## Knapsack Problem, [more](./01-knapsack-problem/README.md)
-![Knapsack problem](./01-knapsack-problem/problem.png)
+<p align="center">
+<img src="./01-knapsack-problem/problem.png" alt="Knapsack Problem" width="50%">
+</p>
 
 
 ## Subset Sum Problem, [more](./02-subset-sum-problem/README.md)
-![Subset Sum Problem](./02-subset-sum-problem/problem.png)
+<p align="center">
+<img src="./02-subset-sum-problem/problem.png" alt="Subset Sum Problem" width="50%">
+</p>
 
 
 ## Bounded Knapsack Problem, [more](./03-bounded-knapsack-problem/README.md)
-![Bounded Knapsack Problem](./03-bounded-knapsack-problem/problem.png)
+<p align="center">
+<img src="./03-bounded-knapsack-problem/problem.png" alt="Bounded Knapsack Problem" width="50%">
+</p>
 
 
 ## Unbounded Knapsack Problem, [more](./04-unbounded-knapsack-problem/README.md)
-![Unbounded Knapsack Problem](./04-unbounded-knapsack-problem/problem.png)
+<p align="center">
+<img src="./04-unbounded-knapsack-problem/problem.png" alt="Unbounded Knapsack Problem" width="50%">
+</p>
 
 
 ## d-Dimensional Knapsack Problem, [more](./05-d-dimensional-knapsack-problem/README.md)
-![d-Dimensional Knapsack Problem](./05-d-dimensional-knapsack-problem/problem.png)
-
-
 <p align="center">
-    <img src="./05-d-dimensional-knapsack-problem/problem.png" alt="Description" width="50%">
+<img src="./05-d-dimensional-knapsack-problem/problem.png" alt="Description" width="50%">
 </p>
 
 
