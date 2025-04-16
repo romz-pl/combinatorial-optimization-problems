@@ -68,5 +68,24 @@ namely $x_j = 0$ for all $j$, whereas in general integer programming finding a f
 solution can be as hard as finding an optimal solution.
 
 
+## Applications
+
+Most of the earlier contributions to the multidimensional knapsack problem were
+motivated by a budget planning scenario. (d-KP) is the direct mathematical formulation of a planning
+task of a decision maker who has to select a subset of projects (i.e. items) out of a
+list of possibilities, each of which (hopefully) generates a certain profit or benefit
+while consuming not only a monetary resource as in (KP) but a number of different
+types of limited resources. These can be diverse categories such as office space,
+available personal, vehicles, machinery, computing power or long-term and short-term financing.
+
+Applications of a different flavour appear in computer science. These include the
+allocation of processors and databases in a distributed computer system],
+and the scheduling of computer programs. In a context of business organization one applied a (d-KP)
+model to the problem of allocating shelf space to consumer products in a retail
+store. Other fields of planning and optimization, where (d-KP) frequently appears
+in the mathematical formulation, are the loading of cargo, cutting
+stock problems and the scheduling of tasks or projects.
+
+
 ## References
 +  H. Kellerer, U. Pferschy, D. Pisinger, Knapsack Problems, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
