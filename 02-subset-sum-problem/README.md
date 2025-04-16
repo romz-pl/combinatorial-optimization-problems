@@ -1,9 +1,7 @@
-# Subset Sum Problem
+# Subset Sum Problem (SSP)
 
 
 ## Problem formulation
-
-
 
 Given a set $N = \lbrace 1,\ldots, n \rbrace$ of $n$ items with positive integer weights $w_1,\ldots, w_n$ and
 a capacity $c$, the subset sum problem (SSP) is to find a subset of $N$ such that the
