@@ -13,7 +13,7 @@ check: card(N) >= 2;
 param C > 0;
 
 
-# Weigths and their constraiins.
+# Weigths and their constrains.
 param W{N} > 0;
 check: sum {j in N} W[j] > C;
 check{j in N}: W[j] <= C;

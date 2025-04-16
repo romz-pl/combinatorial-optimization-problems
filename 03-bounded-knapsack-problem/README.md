@@ -30,8 +30,12 @@ b_j \leq \left \lfloor \frac{c}{w_j} \right \rfloor, \quad j = \lbrace 1, \ldots
 ```
 since no more than $\lfloor c/ w_j \rfloor$ copies of item type $j$ will fit into the knapsack. If this is
 not true for some item type $j$, one can immediately reduce the number of copies for
-this item type by setting $b_j := \lfloor c / w_j \rfloor$ .
+this item type by setting $b_j := \lfloor c / w_j \rfloor$.
 
+Assumption, which excludes trivial problem instances where all items can be packed, translates into
+```math
+sum_{j=1}^n w_j b_j > c.
+```
 
 ## Application
 
@@ -53,9 +57,3 @@ between different research and development problems (see Bradley), and general c
 + P.C. Gilmore, R.E. Gomory. A linear programming approach to the cutting stock problem. Operations Research, 9:849-859.1961 [DOI](https://www.jstor.org/stable/167051)
 + H. Dyckhoff, U. Finke. Cutting and Packing in Production and Distribution. Physica, 1992. [DOI](https://link.springer.com/book/10.1007/978-3-642-58165-6)
 + S.P. Bradley, A.C. Hax, T.L. Magnanti. Applied Mathematical Programming. 1977 [PDF, Free](https://web.mit.edu/15.053/www/AMP.htm)
-
-
-
-
-
-

@@ -1,0 +1,111 @@
+
+
+*************************************************************
+
+   NEOS Server Version 6.0
+   Job#     : 15892858
+   Password : VgyWzbRv
+   User     : 
+   Solver   : milp:HiGHS:AMPL
+   Start    : 2025-04-16 04:31:25
+   End      : 2025-04-16 04:31:29
+   Host     : prod-sub-1.neos-server.org
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information for any particular purpose.
+
+   Announcements:
+*************************************************************
+You are using the solver highsampl.
+Checking ampl.mod for highsampl_options...
+Checking ampl.com for highsampl_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-1.neos-server.org
+C = 9
+
+set N := 1 2 3 4 5;
+
+:   P    W   B    :=
+1   10   3   2
+2    5   2   3
+3    7   3   2
+4    6   4   2
+5    1   1   5
+;
+
+subject to C_capacity:
+	3*X[1] + 2*X[2] + 3*X[3] + 4*X[4] + X[5] <= 9;
+
+maximize objective_function:
+	10*X[1] + 5*X[2] + 7*X[3] + 6*X[4] + X[5];
+
+
+"option presolve 10;" used, but "option presolve 2;" would suffice.
+5 variables, all integer
+1 constraint, all linear; 5 nonzeros
+	1 inequality constraint
+1 linear objective; 5 nonzeros.
+
+HiGHS 1.7.0:   tech:outlev = 1
+Running HiGHS 1.7.0 (git hash: 50670fd): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 4e+00]
+  Cost   [1e+00, 1e+01]
+  Bound  [2e+00, 5e+00]
+  RHS    [9e+00, 9e+00]
+Presolving model
+1 rows, 5 cols, 5 nonzeros  0s
+1 rows, 5 cols, 5 nonzeros  0s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   1 rows
+   5 cols (0 binary, 5 integer, 0 implied int., 0 continuous)
+   5 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   66              -inf                 inf        0      0      0         0     0.0s
+ S       0       0         0   0.00%   66              25               164.00%        0      0      0         0     0.0s
+ R       0       0         0   0.00%   27.33333333     26                 5.13%        0      0      0         2     0.0s
+ T       0       0         0   0.00%   27.33333333     27                 1.23%        0      0      0         2     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      27
+  Dual bound        27
+  Gap               0% (tolerance: 0.01%)
+  Solution status   feasible
+                    27 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.00 (total)
+                    0.00 (presolve)
+                    0.00 (postsolve)
+  Nodes             1
+  LP iterations     2 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+HiGHS 1.7.0: optimal solution; objective 27
+2 simplex iterations
+1 branching nodes
+objective_function = 27
+
+X [*] :=
+1  2
+2  0
+3  1
+4  0
+5  0
+;
+
+NEOS Server Home

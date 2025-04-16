@@ -1,5 +1,5 @@
 #
-# The AMPL implementation of Knapsack Problem.
+# The AMPL implementation of Bounded Knapsack Problem.
 #
 # author: Zbigniew Romanowski
 #
@@ -13,18 +13,22 @@ check: card(N) >= 2;
 param C > 0;
 
 
-# Weigths and their constrains.
+# Weigths.
 param W{N} > 0;
-check: sum {j in N} W[j] > C;
-check{j in N}: W[j] <= C;
 
 
 # Profits
 param P{N} > 0;
 
 
+# Bounds and their constrains
+param B{N} > 0, integer;
+check{j in N}: B[j] <= floor(C / W[j]);
+check: sum {j in N} W[j] * B[j] > C;
+
+
 # Decision variable
-var X{N} binary;
+var X{j in N} integer, >= 0, <= B[j];
 
 
 # The objective function.
@@ -35,4 +39,3 @@ maximize objective_function:
 # The capacity constraint.
 subject to C_capacity:
     sum {j in N} W[j] * X[j] <= C;
-
