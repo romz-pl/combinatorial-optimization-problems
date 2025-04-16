@@ -9,7 +9,7 @@ of every item are given or even an unlimited amount of each item is available.
 The corresponding problems are known as the **bounded knapsack problem** and **unbounded knapsack problem**, respectively.
 This article is devoted to the bounded case.
 
-gi
+
 ## Mathematical formulation
 
 A set of **item types** $N = \lbrace 1, \ldots, n \rbrace$ is given where all items of type $j$ have
