@@ -7,12 +7,38 @@ In the generalizations of the basic knapsack problem we will add additional cons
 attaining the multidimensional knapsack problem. Many real world applications
 in the selection and packing area require more than a single constraint.
 
-
 The d-dimesional knapsack problem can be formally defined as follows: We are given an
 instance of the knapsack problem with item set $N:= \lbrace 1,\ldots,n \rbrace$, consisting of $n$ items $j$ with profit
 $p_j$ and weight $w_{ij}$, and the capacity value $c_i$ for $i = \lbrace, \ldots, d \rbrace$. Then the objective is to select a subset of $N$ such
 that the total profit of the selected items is maximized and the total weight does not
 exceed $c_i$.
+
+## Mathematical formulation
+
+The resulting generalization of knapsack problem to the d-dimensional knapsack problem is defined as follows.
+
+![Mathematical formulation](./problem.png)
+
+
+This problem can be seen as a knapsack problem with a collection of different
+resource constraints or one constraint consisting of a multidimensional attribute.
+
+
+## Assumptions on the Input Data
+
+It is assumed that all $p_j$, $w_{ij}$ and $c_i$ are positive values. It
+is allowed that $w_{ij }= 0$ for some $i, j$, as long as $\sum_{i=1}^d w_{ij} \geq 1$ holds for all items
+$j = 1,\ldots,n$. To guarantee that an item can be packed at all we assume
+```math
+w_{ij} \leq c_i, \quad j = 1,\ldots,n, \quad i = 1, \ldots, d.
+```
+To avoid trivial constraints it is assumed
+```math
+\sum_{j=1}^n w_{ij} \geq c_i, \quad i = 1, \ldots, d.
+```
+
+
+## Comments
 
 Note that the terminology for (d-KP) is not completely unique in the literature.
 Beside the occurrence of hyphens confusion arises sometimes between the terms
@@ -45,38 +71,6 @@ relevant classes of integer programming problems are defined by sparse constrain
 matrices. On the other hand, there is a trivial feasible solution at hand for (d-KP),
 namely $x_j = 0$ for all $j$, whereas in general integer programming finding a feasible
 solution can be as hard as finding an optimal solution.
-
-
-## Mathematical formulation
-
-The resulting generalization of knapsack problem to the d-dimensional knapsack problem is defined as follows.
-
-![Mathematical formulation](./problem.png)
-
-
-This problem can be seen as a knapsack problem with a collection of different
-resource constraints or one constraint consisting of a multidimensional attribute.
-
-
-## Assumptions on the Input Data
-
-It is assumed that all $p_j$, $w_{ij}$ and $c_i$ are positive values. It
-is allowed that $w_{ij }= 0$ for some $i, j$, as long as $\sum_{i=1}^d w_{ij} \geq 1$ holds for all items
-$j = 1,\ldots,n$. To guarantee that an item can be packed at all we assume
-```math
-w_{ij} \leq c_i, \quad j = 1,\ldots,n, \quad i = 1, \ldots, d.
-```
-To avoid trivial constraints it is assumed
-```math
-\sum_{j=1}^n w_{ij} \geq c_i, \quad i = 1, \ldots, d.
-```
-
-
-## Application
-
-Selecting an arbitrary number of copies from resources with unlimited but integer
-availability occurs in many practical decision scenarios. Applications are usually
-closely related to the case of Bounded Knapsack Problem.
 
 
 ## References
