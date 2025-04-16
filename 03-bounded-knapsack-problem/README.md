@@ -14,7 +14,7 @@ This article is devoted to the bounded case.
 
 A set of **item types** $N = \lbrace 1, \ldots, n \rbrace$ is given where all items of type $j$ have
 profit $p_j > 0$ and weight $w_j > 0$. There are $b_j > 0$ identical copies of item type $j$ available. The
-corresponding integer programming formulation of the bounded knapsack problemis given as follows.
+corresponding integer programming formulation of the bounded knapsack problem is given as follows.
 
 ![Mathematical formulation](./problem.png)
 
@@ -25,12 +25,12 @@ corresponding integer programming formulation of the bounded knapsack problemis 
 ## Assumptions on the Input Data
 
 We assume that
-$$
+```math
 b_j \leq \lfloor \frac{c}{w_j} \rfloor, \quad j = \lbrace 1, \ldots, n \rbrace$,
-$$
-since no more than \lfloor c/ w_j \rfloor copies of item type $j$ will fit into the knapsack. If this is
+```
+since no more than $\lfloor c/ w_j \rfloor$ copies of item type $j$ will fit into the knapsack. If this is
 not true for some item type $j$, one can immediately reduce the number of copies for
-this item type by setting $b_j := \lfloor c / w_j \rfloor .
+this item type by setting $b_j := \lfloor c / w_j \rfloor$ .
 
 
 ## Application

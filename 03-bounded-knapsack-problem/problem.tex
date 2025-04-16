@@ -1,8 +1,5 @@
 \begin{align*}
-\text{maximize} \quad & \sum_{j=1}^n w_j x_j \\
+\text{maximize} \quad & \sum_{j=1}^n p_j x_j \\
 \text{subject to} \quad & \sum_{j=1}^n w_j x_j \leq c \\
-& x_j \in \lbrace 0, 1 \rbrace, \quad j = 1, \ldots,n
+& x_j \in \mathbb{Z}, \quad 0 \leq x_j \leq b_j, \quad j = 1, \ldots,n
 \end{align*}
-
-
-
