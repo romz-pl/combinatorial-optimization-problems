@@ -22,6 +22,30 @@ reserving multiple to represent the fact that an item can be put into one of sev
 knapsacks, which is a completely different problem!
 
 
+We choose to use the terms **multidimensional** and **d-dimensional** in parallel where
+the former signifies the general model and the latter stresses the number of constraints.
+In this way (2-KP) follows immediately from (d-KP) and (KP) is equivalent to (l-KP).
+
+The term two-dimensional packing problem also appears in a geometric context
+where $w_{1j}$ and $w_{2j}$ refer to the length and width of object $j$. In this case, a feasible
+packing has to observe the obvious geometric constraints of placing rectangles into
+a given rectangle of length $c_1$ and width $c_2$. These geometric problems are a major
+topic in the area of bin packing.
+
+In the literature (d-KP) was not always considered as a proper member of the knapsack
+family of problems. Indeed, (d-KP) is a special case of general integer programming
+with the only restrictions that all coefficients are positive and the variables are zero
+or one. Therefore, many authors use a standard notation of linear programming
+involving elements of linear algebra instead of the knapsack based notation.
+
+There are two main characteristics to motivate the separate treatment of this special
+case. On one hand (d-KP) is a particular difficult instance of integer programming
+because the "constraint matrix" consisting of $w_{ij}$ is unusually dense whereas most
+relevant classes of integer programming problems are defined by sparse constraint
+matrices. On the other hand, there is a trivial feasible solution at hand for (d-KP),
+namely $x_j = 0$ for all $j$, whereas in general integer programming finding a feasible
+solution can be as hard as finding an optimal solution.
+
 
 ## Mathematical formulation
 
@@ -36,11 +60,11 @@ resource constraints or one constraint consisting of a multidimensional attribut
 
 ## Assumptions on the Input Data
 
-It is assumed that all $p_j$, $w_{ij}$ and $c_i$ are positive integer values. It
+It is assumed that all $p_j$, $w_{ij}$ and $c_i$ are positive values. It
 is allowed that $w_{ij }= 0$ for some $i, j$, as long as $\sum_{i=1}^d w_{ij} \geq 1$ holds for all items
 $j = 1,\ldots,n$. To guarantee that an item can be packed at all we assume
 ```math
-w_{ij} \leq c+i \quad j = 1,\ldots,n, \quad i = 1, \ldots, d.
+w_{ij} \leq c_i, \quad j = 1,\ldots,n, \quad i = 1, \ldots, d.
 ```
 To avoid trivial constraints it is assumed
 ```math
