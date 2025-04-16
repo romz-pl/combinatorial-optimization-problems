@@ -9,7 +9,7 @@ of every item are given or even an unlimited amount of each item is available.
 The corresponding problems are known as the **bounded knapsack problem** and **unbounded knapsack problem**, respectively.
 This article is devoted to the bounded case.
 
-
+gi
 ## Mathematical formulation
 
 A set of **item types** $N = \lbrace 1, \ldots, n \rbrace$ is given where all items of type $j$ have
@@ -47,12 +47,12 @@ between different research and development problems (see Bradley), and general c
 ## References
 +  H. Kellerer, U. Pferschy, D. Pisinger, Knapsack Problems, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
 + H.M. Weingartner. Capital budgeting of interrelated projects: survey and synthesis. Management Science, 12:485-516, 1966 [DOI](https://www.jstor.org/stable/2627881)
-+ B.Render, R.M. Stair, M.E. Hanna, T.S. Hale. Quantitative Analysis for Management, 2024
-+ P.C. Gilmore, R.E. Gomory. The theory and computation of knapsack functions. Operations Research, 14:1045-1074, 1966 [DOI] https://www.jstor.org/stable/168433
++ B.Render, R.M. Stair, M.E. Hanna, T.S. Hale. Quantitative Analysis for Management, 2024 [DOI](https://www.pearson.com/en-us/subject-catalog/p/quantitative-analysis-for-management/P200000009863/9780138170851?srsltid=AfmBOorPfcLSiv79YZlLBqhx-xLAEYfPbO0soPV0PQwt0BkEpBWAH-qU&tab=title-overview)
++ P.C. Gilmore, R.E. Gomory. The theory and computation of knapsack functions. Operations Research, 14:1045-1074, 1966 [DOI](https://www.jstor.org/stable/168433)
 + P.C. Gilmore, R.E. Gomory. Multistage cutting stock problems of two and more dimensions. Operations Research, 13:94-120, 1964 [DOI](https://www.jstor.org/stable/167956)
 + P.C. Gilmore, R.E. Gomory. A linear programming approach to the cutting stock problem. Operations Research, 9:849-859.1961 [DOI](https://www.jstor.org/stable/167051)
 + H. Dyckhoff, U. Finke. Cutting and Packing in Production and Distribution. Physica, 1992. [DOI](https://link.springer.com/book/10.1007/978-3-642-58165-6)
-+ S.P. Bradley, A.C. Hax, T.L. Magnanti. Applied Mathematical Programming. 1977.
++ S.P. Bradley, A.C. Hax, T.L. Magnanti. Applied Mathematical Programming. 1977 [PDF, Free](https://web.mit.edu/15.053/www/AMP.htm)
 
 
 
