@@ -7,11 +7,6 @@ In the generalizations of the basic knapsack problem we will add additional cons
 attaining the multidimensional knapsack problem. Many real world applications
 in the selection and packing area require more than a single constraint.
 
-The d-dimesional knapsack problem can be formally defined as follows: We are given an
-instance of the knapsack problem with item set $N:= \lbrace 1,\ldots,n \rbrace$, consisting of $n$ items $j$ with profit
-$p_j$ and weight $w_{ij}$, and the capacity value $c_i$ for $i = \lbrace, \ldots, d \rbrace$. Then the objective is to select a subset of $N$ such
-that the total profit of the selected items is maximized and the total weight does not
-exceed $c_i$.
 
 ## Mathematical formulation
 
