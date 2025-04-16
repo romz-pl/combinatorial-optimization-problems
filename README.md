@@ -30,7 +30,13 @@ Formulation of combinatorial optimization problems in AMPL language
 
 ## d-Dimensional Knapsack Problem, [more](./05-d-dimensional-knapsack-problem/README.md)
 <p align="center">
-<img src="./05-d-dimensional-knapsack-problem/problem.png" alt="Description" width="50%">
+<img src="./05-d-dimensional-knapsack-problem/problem.png" alt="d-Dimensional Knapsack Problem" width="50%">
+</p>
+
+
+## k-Item Knapsack Problem, [more](./06-k-item-knapsack-problem/README.md)
+<p align="center">
+<img src="./06-k-item-knapsack-problem/problem.png" alt="k-Item Knapsack Problem" width="50%">
 </p>
 
 
