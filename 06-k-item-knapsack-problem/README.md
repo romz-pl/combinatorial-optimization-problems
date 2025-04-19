@@ -13,9 +13,6 @@ of larger items will be preferred to a solution with a large number of smaller i
 The easiest way of representing this goal is the formulation of a **cardinality constraint**,
 i.e. an upper bound k on the number of packed items.
 
-
-## Mathematical formulation
-
 The resulting **cardinality constrained knapsack problem** or **k-item knapsack problem** is
  the following linear integer program:
 

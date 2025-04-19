@@ -14,10 +14,6 @@ Although there is a natural bound of how many copies of any item type can fit in
 a knapsack the structure of the problem is in several aspects not the same as for
 the case with a prespecified bound.
 
-
-
-## Mathematical formulation
-
 A set of **item types** $N = \lbrace 1, \ldots, n \rbrace$ is given where all items of type $j$ have
 profit $p_j > 0$ and weight $w_j > 0$. There is an unlimited supply of identical copies of every item type $j$ available.
 The corresponding integer programming formulation of the bounded knapsack problem is given as follows.

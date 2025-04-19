@@ -9,9 +9,6 @@ of every item are given or even an unlimited amount of each item is available.
 The corresponding problems are known as the **bounded knapsack problem** and **unbounded knapsack problem**, respectively.
 This article is devoted to the bounded case.
 
-
-## Mathematical formulation
-
 A set of **item types** $N = \lbrace 1, \ldots, n \rbrace$ is given where all items of type $j$ have
 profit $p_j > 0$ and weight $w_j > 0$. There are $b_j > 0$ identical copies of item type $j$ available. The
 corresponding integer programming formulation of the bounded knapsack problem is given as follows.

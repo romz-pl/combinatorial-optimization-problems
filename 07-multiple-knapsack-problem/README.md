@@ -10,9 +10,6 @@ of $\hat{N}$ can be assigned to the knapsacks without exceeding the capacities, 
 be partitioned into $m$ disjoint sets $N_i$, such that $w(N_i) \leq c_i, i = 1, \ldots, m$. The objective
 is to select a feasible subset $\hat{N}$, such that the total profit of $\hat{N}$ is maximized.
 
-
-## Mathematical formulation
-
 The mathematical programming formulation of this multiple knapsack problem is given by
 
 ![Mathematical formulation](./problem.png)

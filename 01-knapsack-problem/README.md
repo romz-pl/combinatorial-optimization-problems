@@ -9,9 +9,6 @@ $p_j$ and weight $w_j$, and the capacity value $c$. Then the objective is to sel
 that the total profit of the selected items is maximized and the total weight does not
 exceed $c$.
 
-
-## Mathematical formulation
-
 A knapsack problem can be formulated as a solution of the following linear integer program:
 
 ![Mathematical formulation](./problem.png)

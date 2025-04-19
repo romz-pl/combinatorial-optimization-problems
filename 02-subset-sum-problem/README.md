@@ -14,9 +14,6 @@ to, but not exceeding the given target value $c$.
 The subset sum problem is the knapsack problem with $p_j = w_j$. 
 Although subset sum problem is a special case of knapsack problem it is still NP-hard.
 
-
-## Mathematical formulation
-
 A subset sum problem can be formulated as a solution of the following linear integer program:
 
 ![Mathematical formulation](./problem.png)

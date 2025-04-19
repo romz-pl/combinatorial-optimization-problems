@@ -7,9 +7,6 @@ In the generalizations of the basic knapsack problem we will add additional cons
 attaining the multidimensional knapsack problem. Many real world applications
 in the selection and packing area require more than a single constraint.
 
-
-## Mathematical formulation
-
 The resulting generalization of knapsack problem to the d-dimensional knapsack problem is defined as follows.
 
 ![Mathematical formulation](./problem.png)

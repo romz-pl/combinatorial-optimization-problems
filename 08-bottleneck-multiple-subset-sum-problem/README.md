@@ -1,9 +1,7 @@
 # Bottleneck Multiple Subset Sum Problem (B-MSSP)
 
 
-
-
-## Mathematical formulation
+## Problem formulation
 
 The mathematical programming formulation of this Bottleneck Multiple Subset Sum Problem is given by
 
