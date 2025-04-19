@@ -13,7 +13,7 @@ on value $1$ if and only if item $j$ is chosen in class $N_i$, the problem is fo
 ![Mathematical formulation](./problem.png)
 
 
-The sets $L$, $G$, $E$ form a partitioning of $ \lbrace 1, \ldots , m \rbrace $. All coefficients $p_{ij}$, $w_{ij}$, $a_i$ and $c$
+The sets $L$, $G$, $E$ form a partitioning of $\lbrace 1, \ldots , m \rbrace$. All coefficients $p_{ij}$, $w_{ij}$, $a_i$ and $c$
 are nonnegative, and the classes $N_1 , \ldots , N_m$ are mutually disjoint.
 
 
