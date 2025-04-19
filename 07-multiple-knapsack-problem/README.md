@@ -14,7 +14,7 @@ every combination of a package with a plane. If there are $n$ items on the list 
 transportation requests and $m$ planes available on this route we use $nm$ binary variables
 $x_{ij}$ for $i = 1, \ldots, m$ and $j = 1, \ldots , n$ with
 ```math
-x_{ij}
+x_{ij} =
 \begin{cases}
 1 &  \text{if item j is put into plane i}, \\
 0 &  \text{otherwise}.
