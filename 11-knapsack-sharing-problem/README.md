@@ -19,7 +19,9 @@ chosen in class $N_i$, we may formulate the knapsack sharing problem as:
 
 ## Remarks
 
-
+The problem reflects situations where items belong to a number of owners, and each owner wishes to
+maximize the total profit of his own items in the shared knapsack. The model maximizes
+the minimum level of the profit sum that can be guaranteed to all owners.
 
 
 
