@@ -1,7 +1,8 @@
 \begin{align*}
 \text{maximize} \quad & \sum_{i=1}^m \sum_{j \in N_i}^n p_{ij} x_{ij} \\
-\text{subject to} \quad & \sum_{i=1}^m \sum_{j \in N_i} w_j x_{ij} \leq c \\
-& \sum_{j \in N_i} x_{ij} \leq 1, \quad i = 1, \ldots, m \\
-& x_{ij} \in \lbrace 0, 1 \rbrace, \quad i = 1, \ldots, n, \quad j \in N_i.
+\text{subject to} \quad & \sum_{i=1}^m \sum_{j \in N_i} w_{ij} x_{ij} \leq c \\
+& \sum_{j \in N_i} x_{ij} = 1, \quad i = 1, \ldots, m \\
+& x_{ij} \in \lbrace 0, 1 \rbrace, \quad i = 1, \ldots, m, \quad j \in N_i.
 \end{align*}
+
 
