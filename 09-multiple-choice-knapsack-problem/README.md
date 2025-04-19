@@ -19,7 +19,11 @@ on value $1$ if and only if item $j$ is chosen in class $N_i$, the problem is fo
 
 
 
-## Applications
+## Remarks
+
++ If $p_{ij} = w_{ij}$ in all classes $N_i, i = 1, \ldots , m$, then the problem may be seen as a
+**multiple-choice subset sum problem**. In this problem we have m classes, each class
+$N_i$ containing weights $w_{i1}, \ldots , w_{i n_i}$.
 
 
 
