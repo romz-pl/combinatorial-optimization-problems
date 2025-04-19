@@ -15,10 +15,10 @@ transportation requests and $m$ planes available on this route we use $nm$ binar
 $x_{ij}$ for $i = 1, \ldots, m$ and $j = 1, \ldots , n$ with
 ```math
 x_{ij}
-\begin{case}
+\begin{cases}
 1 &  \text{if item j is put into plane i}, \\
-0 & otherwise.
-\end{case}
+0 &  \text{otherwise}.
+\end{cases}
 ```
 
 
@@ -28,7 +28,7 @@ The mathematical programming formulation of this multiple knapsack problem is gi
 
 ![Mathematical formulation](./problem.png)
 
-Constraint $\sum_{i=1}^m x_{ij} \leq 1, \quad j = 1, \ldots, n$
+Constraint $\sum_{i=1}^m x_{ij} \leq 1, j = 1, \ldots, n$
 guarantees that every item is put at most into one plane. If the
 capacities of the planes are identical we can easily simplify the above model by
 introducing a capacity $c$ for all planes.
