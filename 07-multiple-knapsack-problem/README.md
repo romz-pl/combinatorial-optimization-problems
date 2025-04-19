@@ -8,7 +8,7 @@ with profits $p_j$ and weights $w_j, j = 1, \ldots ,n$ and a set of knapsacks $M
 with positive capacities $c_i, i = 1, \ldots , m$. We call a subset $\hat{N} \subseteq N$ feasible if the items
 of $\hat{N}$ can be assigned to the knapsacks without exceeding the capacities, i.e. if $\hat{N}$ can
 be partitioned into $m$ disjoint sets $N_i$, such that $w(N_i) \leq c_i, i = 1, \ldots, m$. The objective
-is to select a feasible subset $N$, such that the total profit of $N$ is maximized.
+is to select a feasible subset $\hat{N}$, such that the total profit of $\hat{N}$ is maximized.
 
 
 ## Mathematical formulation
