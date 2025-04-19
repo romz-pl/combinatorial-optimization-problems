@@ -13,8 +13,7 @@ The mathematical programming formulation of this Bottleneck Multiple Subset Sum 
 
 ## Applications
 
-A real-world problem for (MSSP) from a company producing objects of marble
-was pointed out by Wirsching [483]. Every week a shipment of m marble slabs
+A real-world problem for (MSSP) from a company producing objects of marble. Every week a shipment of m marble slabs
 from a quarry is received by the company. These slabs have a uniform size and are
 much longer than wide. The company produces different products, which first have
 to be cut from the marble slabs and are then further processed. In particular, each
