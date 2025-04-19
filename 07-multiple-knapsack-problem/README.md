@@ -23,6 +23,17 @@ capacities of the planes are identical we can easily simplify the above model by
 introducing a capacity $c$ for all planes.
 
 
+## Remarks
+
++ If all capacities are equal to $c$ we speak of the **multiple knapsack problem with identical capacities (MKP-I)**.
+
++ The subset sum variant of (MKP) ith $p_j = w_j, j = 1, \ldots , n$, is called the **multiple subset sum problem**.
+
++ The subset sum variant of (MKP-I) is called the **multiple subset sum problem with identical capacities**.
+
+
+
+
 ## Applications
 
 Interesting variant of the cargo problem arises
