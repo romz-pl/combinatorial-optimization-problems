@@ -5,7 +5,7 @@
 
 In the multiple knapsack problem we are given a set of items $N := \lbrace 1, \ldots , n \rbrace$
 with profits $p_j$ and weights $w_j, j = 1, \ldots ,n$ and a set of knapsacks $M:= \lbrace 1, \ldots ,m \rbrace$
-with positive capacities $c_i, i = 1, \ldots , m$. We call a subset $\hut{N} \subset N$ feasible if the items
+with positive capacities $c_i, i = 1, \ldots , m$. We call a subset $\hat{N} \subseteq N$ feasible if the items
 of $N$ can be assigned to the knapsacks without exceeding the capacities, i.e. if $N$ can
 be partitioned into m disjoint sets $N_ii$, such that $w(N_ii) \leq c_i i = 1, \ldots, m$. The objective
 is to select a feasible subset $N$, such that the total profit of $N$ is maximized.
