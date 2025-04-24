@@ -59,7 +59,12 @@ have length $\ell_j$ not greater than the length $y_i$ of the strip.
 
 
 
+## Remarks
 
+A further generalization of the problem would be to allow rotation of the items by
+90 degrees. In this case we may simply extend the problem to $2n$ items, item $n + j$
+being item $j$ rotated. Since an infinite amount of both items is available, the above
+recursion may be applied without changes.
 
 
 ## References
