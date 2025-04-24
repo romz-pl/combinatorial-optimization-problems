@@ -50,15 +50,13 @@ maximum number of pieces of type $j$ which can be cut from the sheet. The intege
 
 ![Mathematical formulation](./problem.png)
 
+Here, the constraints (1) say that no strip may exceed the width of the sheet,
+the constraint (2) ensures that the sum of strip lengths should be within the sheet
+length, while the constraints (3) demand that each item $j$ chosen for strip $i$ should
+have length $\ell_j$ not greater than the length $y_i$ of the strip. The constraint (4) ensures
+that if $x_{ij} > 0$ then $x_{ij}' = 1$.
 
 
-
-
-## Remarks
-
-The problem reflects situations where items belong to a number of owners, and each owner wishes to
-maximize the total profit of his own items in the shared knapsack. The model maximizes
-the minimum level of the profit sum that can be guaranteed to all owners.
 
 
 
