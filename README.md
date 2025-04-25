@@ -82,6 +82,11 @@ Formulation of combinatorial optimization problems in AMPL language
 </p>
 
 
+## Combinatorial Auctions Problem, [more](./14-combinatorial-auction-problem/README.md)
+<p align="center">
+<img src="./14-combinatorial-auction-problem/problem.png" alt="Combinatorial Auctions Problem" width="50%">
+</p>
+
 
 ## Additional information
 
