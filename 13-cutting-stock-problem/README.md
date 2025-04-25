@@ -26,7 +26,7 @@ general mixed integer programming solvers and this model is not used in practice
 
 A different formulation of the cutting stock problem is due to Gilmore and Gomory.
 Instead of assigning an item to the bin it is cut of, we consider the
-set all possible cutting patterns. A vector $\alpha \in \lbrace O, l \rbrace^m$ represents a cutting pattern if
+set all possible cutting patterns. A vector $\alpha \in \lbrace O, 1 \rbrace^m$ represents a cutting pattern if
 we have
 ```math
 \sum_{i=1}^m w_i \alpha_i \leq c,
@@ -59,7 +59,7 @@ stock problems by column generation and branch-and-bound. Computational
 Optimization and Applications, 3:111-130, 1994. [DOI](https://doi.org/10.1007/BF01300970)
 
 + P.C. Gilmore and R.E. Gomory. A linear programming approach to the cutting stock
-problem. Operations Research, 9:849-859.1961. [DOI](https://doi.org/10.1287/opre.9.6.849)
+problem. Operations Research, 9:849-859,1961. [DOI](https://doi.org/10.1287/opre.9.6.849)
 
 + P.C. Gilmore and R.E. Gomory. A linear programming approach to the cutting stock
 problem, part II. Operations Research, 11:863-888, 1963. [DOI](https://doi.org/10.1287/opre.11.6.863)
