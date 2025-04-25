@@ -85,6 +85,22 @@ the combination of the binary decisions for every investment such that the overa
 return on investment is as large as possible can be formulated by knapsack problem.
 
 
+## Knapsack problem as an capital budgeting
+
+The classical decision problem of a government agency on a local or federal level
+is the allocation of funds for projects usually on a yearly basis. Typically, every
+department or interest group submits a long list of projects with their costs $w_j$.
+Obviously, it will rarely be the case that all these "wishes" can be fulfilled. Instead,
+it has to be decided which of the projects can actually be implemented with the
+available budget $c$. Each project is evaluated for its general utility or benefit. As far
+as possible a quantitative estimate $p_j$ for this benefit is sought. Maximizing the
+total benefit while keeping total expenditures below the available budget immediately
+yields an instance of Knapsack problem. Some projects may be implemented in a number of more
+or less identical copies (e.g. kindergarten, primary school, vehicles for transportation
+or municipal duties), which results in an instance of a bounded or unbounded
+knapsack problem.
+
+
 ## Knapsack problem as a logistic problem
 
 A illustrating example of a real-world economic situation which is captured
