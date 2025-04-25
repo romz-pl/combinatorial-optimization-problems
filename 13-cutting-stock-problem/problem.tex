@@ -1,8 +1,7 @@
 \begin{align*}
-\text{minimize} \quad & \sum_{j=1}^U y_j \\
-\text{subject to} \quad & \sum_{i=1}^n w_i x_{ij} \leq c y_j, \quad j = 1, \ldots, U, \\
-& \sum_{j=1}^U x_{ij} \geq b_i \quad i = 1, \ldots, m,\\
-& x_{ij} \in \mathbb{N}_0, \; y_j \in \lbrace 0, 1 \rbrace, \quad i = 1, \ldots, m, \quad j = 1, \ldots, U.
+\text{minimize} \quad & \sum_{j=1}^n x_j \\
+\text{subject to} \quad & \sum_{j=1}^n a_{ij} x_j \geq b_i, \quad i = 1, \ldots, m, \\
+& x_j \in \mathbb{N}_0, \quad j = 1, \ldots, n.
 \end{align*}
 
 
