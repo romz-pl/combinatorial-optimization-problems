@@ -76,6 +76,10 @@ Formulation of combinatorial optimization problems in AMPL language
 </p>
 
 
+## Cutting Stock Problem, [more](./13-cutting-stock-problem/README.md)
+<p align="center">
+<img src="./13-cutting-stock-problem/problem.png" alt="Cutting Stock Problem" width="50%">
+</p>
 
 
 
