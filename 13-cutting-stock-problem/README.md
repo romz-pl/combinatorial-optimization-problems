@@ -40,15 +40,12 @@ variable $x_j$ to denote how many times a packing pattern $j$ is used, we get th
 
 ![Mathematical formulation](./problem.png)
 
-
-
-## Remarks
-
-The problem reflects situations where items belong to a number of owners, and each owner wishes to
-maximize the total profit of his own items in the shared knapsack. The model maximizes
-the minimum level of the profit sum that can be guaranteed to all owners.
-
-
+Here the objective function minimizes the number of bins used and the constraints
+guarantee that each required item is cut of one bin. If the demands $b_i$ are not too
+small, we can expect the LP-relaxation of the above problem to deliver reasonable results for
+the cutting stock problem after simply rounding up the noninteger pattern numbers
+$x_j$. Unfortunately, the number of possible packing patterns can be exponentially
+large. 
 
 
 ## References
