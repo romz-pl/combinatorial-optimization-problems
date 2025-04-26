@@ -12,7 +12,7 @@ possible way. Let us assume that machine $j$ needs $c_{ij}$ time units in order 
 $i$. We want to minimize the total completion time. If we assume
 that the machines work in parallel, we have to minimize the maximum value of elapsed time.
 The goal is to assign the jobs such that the latest completion time
-is minimized. The problem is formulated as follows:
+is minimized. The problem can be formulated as an integer linear program:
 
 
 ![Mathematical formulation](./problem.png)
