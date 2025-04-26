@@ -4,7 +4,7 @@
 ## Problem formulation
 
 
-The **linear sum assignment problem, LSAP** is one of the most famous problems in linear
+The **linear sum assignment problem (LSAP)** is one of the most famous problems in linear
 programming and in combinatorial optimization. Informally speaking, we are given an
 $n \times n$ **cost matrix** $C = (c_{ij})$, where $c_{ij}$ measures the cost
 of assigning $i$ to $j$, and we want to match each row to a different column in such
@@ -14,12 +14,10 @@ column and the sum of the corresponding costs is a minimum.
 
 Alternatively, one can define **LSAP** through a graph theory model. Define a bipartite
 graph $G = (U, V; E)$ having a vertex of $U$ for each row, a vertex of $V$ for each column, and
-cost $c_{ij}$ associated with edge $[i, j]$ for $i, j = 1, 2, \ldots , n$. The problem is then to determine a
-minimum cost perfect matching in $G$ (weighted bipartite matching problem: find a subset
-of edges such that each vertex belongs to exactly one edge and the sum of the costs of these
-edges is a minimum).
+cost $c_{ij}$ associated with edge $[i, j]$ for $i, j = 1, \ldots , n$. The problem is then to determine a
+minimum cost perfect matching in $G$.
 
-The problem is formulated as follows
+The problem is formulated as follows:
 
 
 ![Mathematical formulation](./problem.png)
@@ -33,16 +31,6 @@ relations (1)–(3) are called assignment constraints and the matrix $X$ is call
 
 
 
-
-## Remarks
-
-
-
-
 ## References
 + R. Burkard, M. Dell’Amico, S. Martello "Assignment Problems", 2009, [DOI](https://doi.org/10.1137/1.9781611972238)
-
-
-
-
 
