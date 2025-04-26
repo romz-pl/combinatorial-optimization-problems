@@ -35,7 +35,7 @@ principle equivalent to a **weighted set packing problem**, it is strongly NP-ha
 
 
 ## References
-+ Knapsack Problems, H. Kellerer, U. Pferschy, D. Pisinger, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
++ U. Pferschy, D. Pisinger, **Knapsack Problems**, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
 
 
 

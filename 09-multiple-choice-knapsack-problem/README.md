@@ -29,7 +29,7 @@ $N_i$ containing weights $w_{i1}, \ldots , w_{i n_i}$.
 
 
 ## References
-- Knapsack Problems, H. Kellerer, U. Pferschy, D. Pisinger, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
++ U. Pferschy, D. Pisinger, **Knapsack Problems**, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
 
 
 

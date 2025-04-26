@@ -46,7 +46,7 @@ between different research and development problems (see Bradley), and general c
 
 
 ## References
-+  H. Kellerer, U. Pferschy, D. Pisinger, Knapsack Problems, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
++ U. Pferschy, D. Pisinger, **Knapsack Problems**, 2004, [DOI](https://doi.org/10.1007/978-3-540-24777-7)
 + H.M. Weingartner. Capital budgeting of interrelated projects: survey and synthesis. Management Science, 12:485-516, 1966 [DOI](https://www.jstor.org/stable/2627881)
 + B.Render, R.M. Stair, M.E. Hanna, T.S. Hale. Quantitative Analysis for Management, 2024 [DOI](https://www.pearson.com/en-us/subject-catalog/p/quantitative-analysis-for-management/P200000009863/9780138170851?srsltid=AfmBOorPfcLSiv79YZlLBqhx-xLAEYfPbO0soPV0PQwt0BkEpBWAH-qU&tab=title-overview)
 + P.C. Gilmore, R.E. Gomory. The theory and computation of knapsack functions. Operations Research, 14:1045-1074, 1966 [DOI](https://www.jstor.org/stable/168433)

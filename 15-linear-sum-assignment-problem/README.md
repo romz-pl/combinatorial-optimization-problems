@@ -18,7 +18,7 @@ of assigning $i$ to $j$, we ask for an assignment with minimum total cost.
 
 
 ## References
-- R. Burkard, M. Dell’Amico, S. Martello "Assignment Problems", 2009, [DOI](https://doi.org/10.1137/1.9781611972238)
++ R. Burkard, M. Dell’Amico, S. Martello "Assignment Problems", 2009, [DOI](https://doi.org/10.1137/1.9781611972238)
 
 
 
