@@ -94,6 +94,10 @@ Formulation of combinatorial optimization problems in AMPL language
 </p>
 
 
+## Linear Bottleneck Assignment Problem [more](./16-linear-bottleneck-assignment-problem/README.md)
+<p align="center">
+<img src="./16-linear-bottleneck-assignment-problem/problem.png" alt="Linear Bottleneck Assignment Problem" width="50%">
+</p>
 
 
 ## References
